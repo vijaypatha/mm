@@ -32,6 +32,15 @@
 </head>
 
 <body>
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7";
+  fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
@@ -101,6 +110,8 @@
                         </audio>
                     </a>
                     <p class="post-meta">Posted by <a href="#">Vijay Patha</a> on July 24, 2016</p>
+                    <div class="fb-share-button" data-href="https://vijaypatha.github.io/mm/index.html#" data-layout="button_count" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fvijaypatha.github.io%2Fmm%2Findex.html%23&amp;src=sdkpreparse">Share</a>
+                    </div>
                 </div>
                 <hr>
                 <div class="post-preview">
@@ -108,15 +119,20 @@
                         <h2 class="post-title">
                             I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.
                         </h2>
+                        <audio controls>
+                            <source src="./audio/Thought Labeling.mp3" type="audio/mpeg">
+                            Your browser does not support the audio tag.
+                        </audio>
                     </a>
                     <p class="post-meta">Posted by <a href="#">Unknow Author</a> on September 18, 2016</p>
                 </div>
+                <div class="fb-share-button" data-href="https://vijaypatha.github.io/mm/index.html#" data-layout="button_count" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fvijaypatha.github.io%2Fmm%2Findex.html%23&amp;src=sdkpreparse">Share</a></div>
 
                 <hr>
                 <!-- Pager -->
                 <ul class="pager">
                     <li class="next">
-                        <a href="#">Older Posts &rarr;</a>
+                        <a href="index.html">Older Posts &rarr;</a>
                     </li>
                 </ul>
             </div>
